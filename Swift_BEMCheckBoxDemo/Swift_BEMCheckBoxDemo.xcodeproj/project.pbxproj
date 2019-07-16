@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AF927B229BA0C0006F2F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF927A229BA0C0006F2F41 /* AppDelegate.swift */; };
+		18AF927D229BA0C0006F2F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF927C229BA0C0006F2F41 /* ViewController.swift */; };
+		18AF9280229BA0C0006F2F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF927E229BA0C0006F2F41 /* Main.storyboard */; };
+		18AF9282229BA0C5006F2F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF9281229BA0C5006F2F41 /* Assets.xcassets */; };
+		18AF9285229BA0C5006F2F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF9283229BA0C5006F2F41 /* LaunchScreen.storyboard */; };
+		18AF929B229BA684006F2F41 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF929A229BA684006F2F41 /* CheckViewController.swift */; };
+		18AF92AB229BFECB006F2F41 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AF92A9229BFECA006F2F41 /* uncheck.png */; };
+		18AF92AC229BFECB006F2F41 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AF92AA229BFECB006F2F41 /* check.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AF9277229BA0C0006F2F41 /* Swift_BEMCheckBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_BEMCheckBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AF927A229BA0C0006F2F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18AF927C229BA0C0006F2F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18AF927F229BA0C0006F2F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AF9281229BA0C5006F2F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AF9284229BA0C5006F2F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AF9286229BA0C5006F2F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AF929A229BA684006F2F41 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		18AF92A9229BFECA006F2F41 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		18AF92AA229BFECB006F2F41 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		685BF6CECD4421E1B01C7234 /* Pods-Swift_BEMCheckBoxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_BEMCheckBoxDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_BEMCheckBoxDemo/Pods-Swift_BEMCheckBoxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B460DBCEC8664D847FF198F1 /* Pods-Swift_BEMCheckBoxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_BEMCheckBoxDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_BEMCheckBoxDemo/Pods-Swift_BEMCheckBoxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FF8B95BC5FFAE4B532305667 /* Pods_Swift_BEMCheckBoxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_BEMCheckBoxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AF9274229BA0C0006F2F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AF926E229BA0C0006F2F41 = {
+			isa = PBXGroup;
+			children = (
+				18AF9279229BA0C0006F2F41 /* Swift_BEMCheckBoxDemo */,
+				18AF9278229BA0C0006F2F41 /* Products */,
+				DF4024AD5A7B8FD351E5B11B /* Pods */,
+				97386766843C7B606F1E6B0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18AF9278229BA0C0006F2F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AF9277229BA0C0006F2F41 /* Swift_BEMCheckBoxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AF9279229BA0C0006F2F41 /* Swift_BEMCheckBoxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18AF927A229BA0C0006F2F41 /* AppDelegate.swift */,
+				18AF927C229BA0C0006F2F41 /* ViewController.swift */,
+				18AF927E229BA0C0006F2F41 /* Main.storyboard */,
+				18AF92A9229BFECA006F2F41 /* uncheck.png */,
+				18AF92AA229BFECB006F2F41 /* check.png */,
+				18AF9281229BA0C5006F2F41 /* Assets.xcassets */,
+				18AF9283229BA0C5006F2F41 /* LaunchScreen.storyboard */,
+				18AF9286229BA0C5006F2F41 /* Info.plist */,
+				18AF929A229BA684006F2F41 /* CheckViewController.swift */,
+			);
+			path = Swift_BEMCheckBoxDemo;
+			sourceTree = "<group>";
+		};
+		97386766843C7B606F1E6B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B95BC5FFAE4B532305667 /* Pods_Swift_BEMCheckBoxDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4024AD5A7B8FD351E5B11B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				685BF6CECD4421E1B01C7234 /* Pods-Swift_BEMCheckBoxDemo.debug.xcconfig */,
+				B460DBCEC8664D847FF198F1 /* Pods-Swift_BEMCheckBoxDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AF9276229BA0C0006F2F41 /* Swift_BEMCheckBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AF9289229BA0C5006F2F41 /* Build configuration list for PBXNativeTarget "Swift_BEMCheckBoxDemo" */;
+			buildPhases = (
+				782C5CC4AC622B15AB5360BA /* [CP] Check Pods Manifest.lock */,
+				18AF9273229BA0C0006F2F41 /* Sources */,
+				18AF9274229BA0C0006F2F41 /* Frameworks */,
+				18AF9275229BA0C0006F2F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_BEMCheckBoxDemo;
+			productName = Swift_BEMCheckBoxDemo;
+			productReference = 18AF9277229BA0C0006F2F41 /* Swift_BEMCheckBoxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AF926F229BA0C0006F2F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18AF9276229BA0C0006F2F41 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 18AF9272229BA0C0006F2F41 /* Build configuration list for PBXProject "Swift_BEMCheckBoxDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AF926E229BA0C0006F2F41;
+			productRefGroup = 18AF9278229BA0C0006F2F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AF9276229BA0C0006F2F41 /* Swift_BEMCheckBoxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AF9275229BA0C0006F2F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AF9285229BA0C5006F2F41 /* LaunchScreen.storyboard in Resources */,
+				18AF92AB229BFECB006F2F41 /* uncheck.png in Resources */,
+				18AF9282229BA0C5006F2F41 /* Assets.xcassets in Resources */,
+				18AF9280229BA0C0006F2F41 /* Main.storyboard in Resources */,
+				18AF92AC229BFECB006F2F41 /* check.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		782C5CC4AC622B15AB5360BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift_BEMCheckBoxDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AF9273229BA0C0006F2F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AF927D229BA0C0006F2F41 /* ViewController.swift in Sources */,
+				18AF927B229BA0C0006F2F41 /* AppDelegate.swift in Sources */,
+				18AF929B229BA684006F2F41 /* CheckViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18AF927E229BA0C0006F2F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AF927F229BA0C0006F2F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AF9283229BA0C5006F2F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AF9284229BA0C5006F2F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AF9287229BA0C5006F2F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18AF9288229BA0C5006F2F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AF928A229BA0C5006F2F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685BF6CECD4421E1B01C7234 /* Pods-Swift_BEMCheckBoxDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Swift_BEMCheckBoxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Swift-BEMCheckBoxDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18AF928B229BA0C5006F2F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B460DBCEC8664D847FF198F1 /* Pods-Swift_BEMCheckBoxDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Swift_BEMCheckBoxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Swift-BEMCheckBoxDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AF9272229BA0C0006F2F41 /* Build configuration list for PBXProject "Swift_BEMCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AF9287229BA0C5006F2F41 /* Debug */,
+				18AF9288229BA0C5006F2F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AF9289229BA0C5006F2F41 /* Build configuration list for PBXNativeTarget "Swift_BEMCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AF928A229BA0C5006F2F41 /* Debug */,
+				18AF928B229BA0C5006F2F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AF926F229BA0C0006F2F41 /* Project object */;
+}
